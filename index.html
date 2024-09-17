@@ -14,74 +14,192 @@
 
 <body>
 
-        <div class="navbar flex justify-around items-center p-5">
-            <div class="hamburger space-y-1 md:hidden">
-                <div class="bar border-t-1 bg-black border h-1 w-6"></div>
-                <div class="bar border-t-1 bg-black border h-1 w-6"></div>
-                <div class="bar border-t-1 bg-black border h-1 w-6"></div>
-            </div>
-            <div class="search-icon  md:hidden">
+    <div class="navbar flex justify-around items-center p-5">
+        <div class="hamburger space-y-1 md:hidden">
+            <div class="bar border-t-1 bg-black border h-1 w-6"></div>
+            <div class="bar border-t-1 bg-black border h-1 w-6"></div>
+            <div class="bar border-t-1 bg-black border h-1 w-6"></div>
+        </div>
+        <div class="search-icon  md:hidden">
+            <i class=" fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="logo flex">
+            <img class="w-28" src="assets/logo.png" alt="">
+            <ul class="md:flex mx-5 space-x-8 hidden">
+                <li>Microsoft 365</li>
+                <li>Office</li>
+                <li>Copilot</li>
+                <li>Windows</li>
+                <li>Support</li>
+            </ul>
+        </div>
+
+
+        <div class="end-div flex space-x-6">
+            <div class="hidden md:block">All Microsoft</div>
+            <div class="search-icon hidden md:block">
+                Search
                 <i class=" fa-solid fa-magnifying-glass"></i>
             </div>
-            <div class="logo flex">
-                <img class="w-28" src="assets/logo.png" alt="">
-                <ul class="md:flex mx-5 space-x-8 hidden">
-                    <li>Microsoft 365</li>
-                    <li>Office</li>
-                    <li>Copilot</li>
-                    <li>Windows</li>
-                    <li>Support</li>
-                </ul>
-            </div>
 
-
-            <div class="end-div flex space-x-6">
-                <div class="hidden md:block">All Microsoft</div>
-                <div class="search-icon hidden md:block">
-                    Search
-                    <i class=" fa-solid fa-magnifying-glass"></i>
-                </div>
-
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class="w-7 h-5" viewBox="0 0 40 36"
-                    style="enable-background:new 0 0 40 36;" xml:space="preserve">
-                    <g id="Page-1_4_" sketch:type="MSPage">
-                        <g id="Desktop_4_" transform="translate(-84.000000, -410.000000)" sketch:type="MSArtboardGroup">
-                            <path id="Cart" sketch:type="MSShapeGroup" class="st0"
-                                d="M94.5,434.6h24.8l4.7-15.7H92.2l-1.3-8.9H84v4.8h3.1l3.7,27.8h0.1
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class="w-7 h-5" viewBox="0 0 40 36"
+                style="enable-background:new 0 0 40 36;" xml:space="preserve">
+                <g id="Page-1_4_" sketch:type="MSPage">
+                    <g id="Desktop_4_" transform="translate(-84.000000, -410.000000)" sketch:type="MSArtboardGroup">
+                        <path id="Cart" sketch:type="MSShapeGroup" class="st0"
+                            d="M94.5,434.6h24.8l4.7-15.7H92.2l-1.3-8.9H84v4.8h3.1l3.7,27.8h0.1
 			c0,1.9,1.8,3.4,3.9,3.4c2.2,0,3.9-1.5,3.9-3.4h12.8c0,1.9,1.8,3.4,3.9,3.4c2.2,0,3.9-1.5,3.9-3.4h1.7v-3.9l-25.8-0.1L94.5,434.6" />
-                        </g>
                     </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" x="0px" y="0px" class="w-7 h-5">
-                    <path
-                        d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z" />
-                </svg>
+                </g>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" x="0px" y="0px" class="w-7 h-5">
+                <path
+                    d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z" />
+            </svg>
 
 
-            </div>
         </div>
+    </div>
 
 
-        <div class="slider flex flex-col-reverse md:flex-row md:justify-start md:items-center md:bg-[#c2e1fe] shadow-md md:shadow-none">
-            <div class="left p-6 md:w-[40%] md:ml-14">
-                <div class="space-y-5">
-                    <h4 class="font-semibold text-xl w-[80%] md:text-4xl md:w-[100]">Maximise the everyday with Microsoft 365</h4>
-                    <p class="md:w-[70%]">
-                        Get online protection, secure cloud storage and innovative apps designed to fit your needs – all
-                        in one plan.
+    <div
+        class="slider flex flex-col-reverse md:flex-row md:justify-start md:items-center md:bg-[#c2e1fe] shadow-md md:shadow-none">
+        <div class="left p-6 md:w-[40%] md:ml-14">
+            <div class="space-y-5">
+                <h4 class="font-semibold text-xl w-[80%] md:text-3xl md:w-[100]">Maximise the everyday with Microsoft
+                    365</h4>
+                <p class="md:w-[80%]">
+                    Get online protection, secure cloud storage and innovative apps designed to fit your needs – all
+                    in one plan.
 
-                    </p>
-                    <div class="btns flex justify-start">
-                        <button class="bg-[#0067b8] text-white rounded-sm px-4 py-2">For one person</button>
-                        <button class="text-[#0067b8] ml-5">For up to six people ></button>
-                    </div>
+                </p>
+                <div class="btns flex justify-start">
+                    <button class="bg-[#0067b8] text-white rounded-sm px-4 py-2">For one person</button>
+                    <button class="text-[#0067b8] ml-5">For up to six people ></button>
                 </div>
             </div>
-            <div class="right md:w-[60%]">
-                <img src="assets/slider.avif" alt="">
+        </div>
+        <div class="right">
+            <img class="w-[70rem]" src="assets/slider.avif" alt="">
+        </div>
+    </div>
+
+    <div class="container mx-auto flex justify-center items-center flex-col md:flex-row gap-x-4 p-4 my-10">
+        <div class="item flex flex-col justify-start items-start border-2 shadow-md md:w-1/4 lg:my-5">
+            <div class="card-image w-[100%]">
+                <img src="assets/card-1.jpeg" class="w-[100%]" alt="card1">
+            </div>
+            <div class="card-body px-4 py-2 my-2 bg-white gap-y-3 lg:h-56  lg:relative">
+                <h3 class="heading text-xl font-semibold md:text-3xl">Designed for life today – and tomorrow</h3>
+                <p class="paragraph my-2">The next-generation of games. Your goals. Friends and family. Windows 11
+                    was made to bring you closer to everything you love.</p>
+                <button
+                    class="bg-[#0067b8] text-white font-semibold text-base rounded-sm px-3 py-2 lg:absolute lg:bottom-2 lg:mt-4">See
+                    if your PC
+                    is
+                    ready</button>
             </div>
         </div>
+        <div class="item flex flex-col justify-start items-start border-2 shadow-md md:w-1/4 my-5">
+            <div class="card-image  w-[100%]">
+                <img src="assets/card2.avif" class="w-[100%]" alt="card1">
+            </div>
+            <div class="card-body px-4 py-2 my-2 bg-white gap-y-3 lg:h-56  lg:relative">
+                <h3 class="heading text-xl font-semibold md:text-3xl">Microsoft Edge</h3>
+                <p class="paragraph my-2">World-class performance with more privacy, more productivity and more
+                    value while you browse.</p>
+                <button
+                    class="bg-[#0067b8] text-white font-semibold text-base rounded-sm px-3 py-2 lg:absolute lg:bottom-2 lg:mt-4">Download
+                    now</button>
+            </div>
+        </div>
+        <div class="item flex flex-col justify-start items-start border-2 shadow-md md:w-1/4 my-5">
+            <div class="card-image  w-[100%]">
+                <img src="assets/card3.webp" class="w-[100%]" alt="card1">
+            </div>
+            <div class="card-body px-4 py-2 my-2 bg-white gap-y-3 lg:h-56 lg:relative">
+                <h3 class="heading text-xl font-semibold md:text-3xl">Microsoft OneDrive</h3>
+                <p class="paragraph my-2">Save your files and photos to OneDrive and access them from any device,
+                    anywhere.</p>
+                <button
+                    class="bg-[#0067b8] text-white font-semibold text-base rounded-sm px-3 py-2 lg:absolute lg:bottom-2 lg:mt-4">Learn
+                    more</button>
+            </div>
+        </div>
+        <div class="item flex flex-col justify-start items-start border-2 shadow-md md:w-1/4 my-5">
+            <div class="card-image  w-[100%]">
+                <img src="assets/card4.webp" class="w-[100%]" alt="card1">
+            </div>
+            <div class="card-body px-4 py-2 my-2 bg-white gap-y-3 lg:h-56  lg:relative">
+                <h3 class="heading text-xl font-semibold md:text-3xl">Outlook for iOS and Android</h3>
+                <p class="paragraph my-2">Connect. Organise. Get things done.</p>
+                <button
+                    class="bg-[#0067b8] text-white font-semibold text-base rounded-sm px-3 py-2 lg:absolute lg:bottom-2 lg:mt-4">Download
+                    now</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mx-auto  my-10">
+        <h1 class="text-3xl font-bold mx-4">For business</h1>
+        <div class="flex justify-center items-center flex-col md:flex-row gap-x-4 p-4">
+            <div class="item flex flex-col justify-start items-start border-2 shadow-md md:w-1/4 lg:my-5">
+                <div class="card-image w-[100%]">
+                    <img src="assets/card5.avif" class="w-[100%]" alt="card1">
+                </div>
+                <div class="card-body px-4 py-2 my-2 bg-white gap-y-3 lg:h-56  lg:relative">
+                    <h3 class="heading text-xl font-semibold md:text-3xl">Get Microsoft Teams for your business</h3>
+                    <p class="paragraph my-2">Online meetings, chat, real-time collaboration, and shared cloud storage –
+                        all in one place.</p>
+                    <button
+                        class="bg-[#0067b8] text-white font-semibold text-base rounded-sm px-3 py-2 lg:absolute lg:bottom-2 lg:mt-4">Find
+                        the right plan for your bussiness</button>
+                </div>
+            </div>
+            <div class="item flex flex-col justify-start items-start border-2 shadow-md md:w-1/4 my-5">
+                <div class="card-image  w-[100%]">
+                    <img src="assets/car6.avif" class="w-[100%]" alt="card1">
+                </div>
+                <div class="card-body px-4 py-2 my-2 bg-white gap-y-3 lg:h-56  lg:relative">
+                    <h3 class="heading text-xl font-semibold md:text-3xl">Microsoft 365 Copilot</h3>
+                    <p class="paragraph my-2">Save time and focus on the things that matter most with AI in Microsoft
+                        365 for business.</p>
+                    <button
+                        class="bg-[#0067b8] text-white font-semibold text-base rounded-sm px-3 py-2 lg:absolute lg:bottom-2 lg:mt-4">Learn
+                        more</button>
+                </div>
+            </div>
+            <div class="item flex flex-col justify-start items-start border-2 shadow-md md:w-1/4 my-5">
+                <div class="card-image  w-[100%]">
+                    <img src="assets/card7.webp" class="w-[100%]" alt="card1">
+                </div>
+                <div class="card-body px-4 py-2 my-2 bg-white gap-y-3 lg:h-56 lg:relative">
+                    <h3 class="heading text-xl font-semibold md:text-3xl">Visual Studio 2022</h3>
+                    <p class="paragraph my-2">Get the most comprehensive IDE for .NET and C++ developers on Windows for
+                        building web, cloud, desktop, mobile apps, services and games.</p>
+                    <button
+                        class="bg-[#0067b8] text-white font-semibold text-base rounded-sm px-3 py-2 lg:absolute lg:bottom-2 lg:mt-4">Download
+                        Visual Studio 2022</button>
+                </div>
+            </div>
+            <div class="item flex flex-col justify-start items-start border-2 shadow-md md:w-1/4 my-5">
+                <div class="card-image  w-[100%]">
+                    <img src="assets/card8.webp" class="w-[100%]" alt="card1">
+                </div>
+                <div class="card-body px-4 py-2 my-2 bg-white gap-y-3 lg:h-56  lg:relative">
+                    <h3 class="heading text-xl font-semibold md:text-3xl">Welcome to your Windows 365 Cloud PC
+                    </h3>
+                    <p class="paragraph my-2">Securely stream your Windows experience from the Microsoft cloud to any
+                        device.</p>
+                    <button
+                        class="bg-[#0067b8] text-white font-semibold text-base rounded-sm px-3 py-2 lg:absolute lg:bottom-2 lg:mt-4">Get
+                        it today</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
